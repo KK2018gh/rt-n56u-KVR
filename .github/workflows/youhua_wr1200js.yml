@@ -1,3 +1,4 @@
+#https://github.com/00575/padavan/blob/master/.github/workflows/Diy%20Build.yml
 name: Build Padavan
 
 on: 
@@ -30,7 +31,7 @@ jobs:
     
     - name: Build Firmware
       env:
-        TNAME: youhua_wr1200js #把NEWIFI3改成自己需要编译的设备
+        TNAME: WR1200JS #把NEWIFI3改成自己需要编译的设备
       run: |
         cd /opt/rt-n56u/trunk
         ################################################################################################
