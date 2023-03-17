@@ -1,5 +1,5 @@
 # https://github.com/Ljzkirito/Actions-Padavan_Redmi-AC2100/blob/MeIsReallyBa/.github/workflows/build-Padavan.yml
-name: Build Padavan
+name: e8820v2_2
 
 on:
   repository_dispatch:
