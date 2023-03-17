@@ -1,5 +1,5 @@
 # https://github.com/00575/padavan/blob/master/.github/workflows/Diy%20Build.yml
-name: Build Padavan
+name: youhua_wr1200js
 
 on: 
   repository_dispatch:
