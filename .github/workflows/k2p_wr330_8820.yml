@@ -1,15 +1,15 @@
 name: k2p_wr330_8820
 
 # Controls when the action will run. 
-# on: 
-    workflow_dispatch:
-      inputs:
-        debug_enabled:
-          description: 'Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)'     
-          required: false
-          default: 'no'
-    release:
-      types: [published]
+on: 
+  workflow_dispatch:
+    inputs:
+      debug_enabled:
+        description: 'Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)'     
+        required: false
+        default: 'no'
+  release:
+    types: [published]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
